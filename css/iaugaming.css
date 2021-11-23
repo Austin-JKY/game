@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+
+	font-family:Time New Romen;
+		margin: 0;
+	padding: 0;
+
+	
+	}
+
+
+.container .logbar{
+
+	height: 100vh;
+	height: 120px;
+	background: black;
+	display: flex;
+	color: whitesmoke;
+align-items: center;
+
+
+
+}
+.logbar img{
+	border-radius: 50%;
+	margin: 30px;
+}
+
+.logbar p{
+	font-size: 25px;
+	color:#f26e0a ;
+}
+.logbar input{
+	width: 350px;
+	height: 35px;
+	border-radius: 15px;
+background: #ff7200;
+border: none;
+margin-left: 250px;
+font-size: 20px;
+
+}
+
+.logbar input::placeholder{
+	color:black;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+.logbar i{
+	margin-left: 400px;
+	font-size: 30px;
+	cursor: pointer;
+color: #ff7200;
+}
+.logbar i:hover{
+	color: white;
+	}
+.ul{
+height: 100vh;
+	height: 20px;
+	background:#f26e0a ;
+}
+
+.ul{
+	height: 100vh;
+	height: 50px;
+left: 0;
+top: 0;
+	display: flex;
+align-items: center;
+font-size:18px ;
+
+}
+.ul ul{
+
+	display: flex;
+	
+}	
+.ul li{
+margin: 30px;
+list-style: none;
+transition: all 0.5s;
+}
+.ul a{
+	text-decoration: none;
+	color: black;
+}
+.ul p{
+	margin: 20px;
+cursor: pointer;
+transition: all 0.5s;
+
+}
+.ul .p{
+	margin-left: 400px;
+
+}
+
+.ul p:hover{
+transform: translateY(-5px);
+color:white;
+
+}
+.ul li:hover{
+transform: translateY(-5px);
+
+}
+.ul a:hover{
+transform: translateY(-5px);
+color: white;
+}
+nav{
+	width: 100%;
+	height:100% ;
+	position: relative;
+
+}
+nav video{
+	width: 100%;
+	height: 390px;
+position: absolute;
+top: 0;
+left: 0;
+	object-fit: cover;
+/*	opacity: ;*/
+/*background-size: cover;*/
+z-index: -1;
+	
+}
+.vd p{
+padding-top: 20px;
+	font-size: 20px;
+	 	margin-right:50px;
+	text-align: right;
+
+}
+
+
+.vd p a{
+	text-decoration: none;
+	padding: 10px 10px;
+	border: 2px solid #ff7200;
+	color:white;
+	text-shadow:5px 5px 3px black ;
+}
+.vd p a:hover{
+	padding: 15px 15px;
+	transition: 1s;
+}
+
+.vd h2{
+	font-size: 40px;
+	padding-top: 50px;
+	color:#ff7200;
+	margin-right:70px;
+	text-align: right;
+	text-shadow:5px 5px 3px black ;
+}
+
+
+
+.vd h1{
+	font-size: 90px;
+	text-align: right;
+margin: 20px;
+	color:#ff7200;
+	text-shadow:5px 5px 3px black ;
+}
+
+
+
+.vd div{
+	text-align: center;/*margin-top: 20px;*/
+}
+
+.vd div a{
+
+			text-decoration: none;
+	 		color: #ff7200;
+
+	 	font-size: 20px;
+	 	border: 2px solid black;
+	 	font-weight: bold;
+	 	padding: 10px 30px;
+	 	position: relative;
+}
+
+.vd div a:hover{
+padding: 12px 35px;
+font-size: 23px;
+/*color:white;*/
+transition: 0.5s;
+}
+
+.dis{
+	
+	width: 1300px;
+	height: 100px;
+	margin-top: 40px;
+	font-family: Arial;
+	background: #fff;
+	border-left:10px solid #ff0;
+	margin-left:20px ;
+background: url(https://c4.wallpaperflare.com/wallpaper/58/546/498/video-game-4k-pc-desktop-hd-wallpaper-preview.jpg);
+	color: #fff;
+	
+
+}
+
+
+.dis h2{
+	padding-top: 10px;
+	margin: 5px;
+}
+
+.dis h2 button{
+	font-size: 30px;
+	background:black;
+	color: #ff1;
+	border: none;
+	padding: 6px;
+	
+
+}
+
+.dis h3 button{
+	font-size: 20px;
+	background:black;
+	color: #ff1;
+	border: none;
+	padding: 6px;
+	
+}
+.pho{
+	display: flex;
+}
+.m1 p{
+	width: 300px;
+	height: 250px;
+	background: #333;
+
+	color: #ff7200;
+	position:absolute;
+	font-size: 20px;
+margin: 20px;
+text-align: center;
+line-height: 450px;
+overflow: hidden;
+cursor: pointer;
+}
+.m1 img{
+	width: 300px;
+	height: 200px;
+	
+	color: #ff7200;
+	position:relative; 
+	margin: 20px;
+	cursor: pointer;
+
+}
+
+
+.m1 p i{
+margin-left: 20px;
+
+
+}
+.m1 p:hover i{
+transform: translateY(-5px);
+}
+.m2 p{
+	width: 300px;
+	height: 250px;
+	background: #333;
+
+	color: #ff7200;
+	position:absolute;
+	font-size: 20px;
+margin: 20px;
+text-align: center;
+line-height: 450px;
+overflow: hidden;
+cursor: pointer;
+}
+.m2 img{
+	width: 300px;
+	height: 200px;
+	
+	color: #ff7200;
+	position:relative; 
+	margin: 20px;
+	cursor: pointer;
+
+}
+
+
+.m2 p i{
+margin-left: 20px;
+
+
+}
+.m2 p:hover i{
+transform: translateY(-5px);
+}
+.m3 p{
+	width: 300px;
+	height: 250px;
+	background: #333;
+
+	color: #ff7200;
+	position:absolute;
+	font-size: 20px;
+margin: 20px;
+text-align: center;
+line-height: 450px;
+overflow: hidden;
+cursor: pointer;
+}
+.m3 img{
+	width: 300px;
+	height: 200px;
+	
+	color: #ff7200;
+	position:relative; 
+	margin: 20px;
+	cursor: pointer;
+
+}
+
+
+.m3 p i{
+margin-left: 20px;
+
+
+}
+.m3 p:hover i{
+transform: translateY(-5px);
+}
+.m4 p{
+	width: 300px;
+	height: 250px;
+	background: #333;
+
+	color: #ff7200;
+	position:absolute;
+	font-size: 20px;
+margin: 20px;
+text-align: center;
+line-height: 450px;
+overflow: hidden;
+cursor: pointer;
+}
+.m4 img{
+	width: 300px;
+	height: 200px;
+	
+	color: #ff7200;
+	position:relative; 
+	margin: 20px;
+	cursor: pointer;
+
+}
+
+
+.m4 p i{
+margin-left: 20px;
+
+
+}
+.m4 p:hover i{
+transform: translateY(-5px);
+}
+
+.see{
+	margin-top: 40px;
+	width: 100%;
+	height: 100vh;
+	height: 85px;
+	background: url(https://c4.wallpaperflare.com/wallpaper/151/453/133/video-game-4k-high-resolution-desktop-wallpaper-preview.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+
+}
+.see a{
+text-decoration: none;
+border: 1px solid black;
+font-size: 20px;
+background:black;
+color: white;
+padding: 14px 30px;
+position: relative;
+overflow: hidden;
+}
+.see a::before{
+	content: '';
+	width: 100%;
+	height: 50%;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-100%) rotate(45deg);
+	transition: all 1s;
+}
+
+.see a:hover::before{
+	transform: translate(100%) rotate(45deg);
+}
+
+.fee div{
+		width: 1200px;
+		height: 120px;
+	display: flex;
+	border-right: 12px solid #ff7200;
+	font-size:22px;
+	margin: 20px;
+	font-family: 'Oswald', sans-serif;
+	background: #222;
+	color: #fff9;
+}
+.fee img{
+	width: 400px;
+	height:120px;
+	display: block;
+	
+
+}
+.fee p{
+	line-height: 120px;
+	margin-left: 50px;
+}
+.fee .cs1{
+	line-height: 120px;
+	text-decoration: none;
+	margin-left: 150px;
+	color: #ff7200;
+}
+
+del{
+	margin: 20px;
+	font-size: 15px;
+}
+.fee button{
+	width: 70px;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 30px;
+	margin-left: 20px;
+	background: red;
+	border: none;
+
+}
+
+.fee div:hover{
+background: #777;
+color: #111;
+}
+
+.fee{
+	margin-top: -15px;
+	background:#251f36;
+}
+.p1{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-size: 26px;
+
+}
+.p1 a{
+	text-decoration: none;
+	padding: 30px 40px;
+	background: black;
+	margin: 30px;
+	color: white;
+
+}
+.p1 i{
+	color: #ff7200;
+}
+.pay{
+	background:#777 ;
+}
+.pay img{
+	width: 120px;
+	height: 80px;
+	margin: 35px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.pay img:hover{
+transform: translateY(-10px);
+}
+.div5 i{
+margin: 20px;
+font-size: 30px;
+cursor: pointer;
+}
+
+.div5 i:hover{
+color: #ff7200;
+}
+
+.div5 ul{
+	list-style: none;
+	font-size: 20px;
+	margin: 20px;
+	text-align: center;
+}
+.div5 .w1{
+margin-left: 550px;
+float: left;
+}
+.div5 .w2{
+	float: left;
+	margin-left: 50px;
+}
+
+.div5 li:hover{
+cursor: pointer;
+color: #ff7200;
+}
+
+.div5 p{
+	margin: 10px;
+	clear: both;
+text-align: center;
+	/*margin-left: 300px;*/
+}
+.div5 .e1{
+margin:10px;
+	display: flex;
+justify-content: center;
+cursor: pointer;
+}
+.e1 h3:hover{
+	color: #ff7200;
+}.div5{
+text-align: center;
+	color: white;
+	background: #222;
+}
